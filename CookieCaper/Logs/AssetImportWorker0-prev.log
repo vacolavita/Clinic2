@@ -15,7 +15,7 @@ C:/Users/valer/OneDrive/Desktop/Clinic2/CookieCaper
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51166
+51298
 Successfully changed project path to: C:/Users/valer/OneDrive/Desktop/Clinic2/CookieCaper
 C:/Users/valer/OneDrive/Desktop/Clinic2/CookieCaper
 Using Asset Import Pipeline V2.
@@ -23,7 +23,7 @@ Assets/Props/Door/Door.c4d: Unity no longer supports importing Cinema 4D files d
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Refreshing native plugins compatible for Editor in 31.19 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 28.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.16f1 (049d6eca3c44)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
@@ -39,81 +39,81 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56152
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001570 seconds.
+Registered in 0.001672 seconds.
 Native extension for WindowsStandalone target not found
 Assets/Props/Door/Door.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Refreshing native plugins compatible for Editor in 32.33 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 28.14 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.823 seconds
+- Completed reload, in  0.867 seconds
 Domain Reload Profiling:
-	ReloadAssembly (823ms)
-		BeginReloadAssembly (44ms)
+	ReloadAssembly (868ms)
+		BeginReloadAssembly (43ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (350ms)
-			LoadAssemblies (42ms)
+		EndReloadAssembly (344ms)
+			LoadAssemblies (41ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (121ms)
+			SetupTypeCache (132ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (142ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (129ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (32ms)
-				BeforeProcessingInitializeOnLoad (9ms)
-				ProcessInitializeOnLoadAttributes (73ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				RefreshPlugins (28ms)
+				BeforeProcessingInitializeOnLoad (8ms)
+				ProcessInitializeOnLoadAttributes (66ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003107 seconds.
+Registered in 0.003237 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.904 seconds
+- Completed reload, in  0.901 seconds
 Domain Reload Profiling:
-	ReloadAssembly (904ms)
-		BeginReloadAssembly (118ms)
+	ReloadAssembly (902ms)
+		BeginReloadAssembly (119ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (735ms)
-			LoadAssemblies (68ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (730ms)
+			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (227ms)
+			SetupTypeCache (230ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (317ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (314ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (54ms)
-				ProcessInitializeOnLoadAttributes (248ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (249ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 Assets/Props/Door/Door.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
@@ -126,14 +126,14 @@ Assets/Props/Door/Door.c4d: Unity no longer supports importing Cinema 4D files d
 Please note that FBX files exported from Cinema4D are still supported.
 
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1827 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.5 MB.
-System memory in use after: 83.5 MB.
+Unloading 1767 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.7 MB.
+System memory in use after: 81.7 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2262.
-Total: 3.813300 ms (FindLiveObjects: 0.211700 ms CreateObjectMapping: 0.082600 ms MarkObjects: 3.440800 ms  DeleteObjects: 0.076800 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2202.
+Total: 2.478400 ms (FindLiveObjects: 0.151800 ms CreateObjectMapping: 0.060300 ms MarkObjects: 2.136200 ms  DeleteObjects: 0.129500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -149,103 +149,139 @@ AssetImportParameters requested are different than current active one (requested
 Received Import Request.
   path: Assets/Materials/woodfloorDBWN.mat
   artifactKey: Guid(69749858da01d6240923edbbf2c36176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/woodfloorDBWN.mat using Guid(69749858da01d6240923edbbf2c36176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e36bbdf83229ef7206989ba0dfb666') in 0.090241 seconds 
-  Import took 0.092746 seconds .
+Start importing Assets/Materials/woodfloorDBWN.mat using Guid(69749858da01d6240923edbbf2c36176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e36bbdf83229ef7206989ba0dfb666') in 0.080462 seconds 
+  Import took 0.082747 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000178 seconds.
+  Time since last request: 0.000150 seconds.
   path: Assets/Materials/concrete_BaseColor 1.mat
   artifactKey: Guid(b3c6ace5d62df8a48a40eb8808bd56b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/concrete_BaseColor 1.mat using Guid(b3c6ace5d62df8a48a40eb8808bd56b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3a2fad5305191db943bd5a5c20a63a') in 0.019201 seconds 
-  Import took 0.021849 seconds .
+Start importing Assets/Materials/concrete_BaseColor 1.mat using Guid(b3c6ace5d62df8a48a40eb8808bd56b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3a2fad5305191db943bd5a5c20a63a') in 0.012842 seconds 
+  Import took 0.015356 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000151 seconds.
+  Time since last request: 0.000131 seconds.
   path: Assets/Materials/old wood planks_baseColor.mat
   artifactKey: Guid(8e8161d3f2598e943b7eaf784346edc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/old wood planks_baseColor.mat using Guid(8e8161d3f2598e943b7eaf784346edc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5800846c7e9baab82d89b922932d740') in 0.041056 seconds 
-  Import took 0.043491 seconds .
+Start importing Assets/Materials/old wood planks_baseColor.mat using Guid(8e8161d3f2598e943b7eaf784346edc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5800846c7e9baab82d89b922932d740') in 0.013103 seconds 
+  Import took 0.016192 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000186 seconds.
+  Time since last request: 0.000171 seconds.
   path: Assets/Materials/woodfloorBWN.mat
   artifactKey: Guid(dd15a3382e046714f8892fb1d207c780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/woodfloorBWN.mat using Guid(dd15a3382e046714f8892fb1d207c780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d56e6003587554e7cb1f554da9768e') in 0.018669 seconds 
-  Import took 0.021191 seconds .
+Start importing Assets/Materials/woodfloorBWN.mat using Guid(dd15a3382e046714f8892fb1d207c780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d56e6003587554e7cb1f554da9768e') in 0.013092 seconds 
+  Import took 0.015572 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000195 seconds.
+  Time since last request: 0.000181 seconds.
   path: Assets/Materials/concrete_BaseColor.mat
   artifactKey: Guid(0ba409e32eae2a445950e5fdb4b1a7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/concrete_BaseColor.mat using Guid(0ba409e32eae2a445950e5fdb4b1a7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2462346c011f75b2aaa9d7b0dff411f6') in 0.025897 seconds 
-  Import took 0.028376 seconds .
+Start importing Assets/Materials/concrete_BaseColor.mat using Guid(0ba409e32eae2a445950e5fdb4b1a7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2462346c011f75b2aaa9d7b0dff411f6') in 0.012455 seconds 
+  Import took 0.014896 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000133 seconds.
+  Time since last request: 0.000127 seconds.
   path: Assets/Materials/Woof_Planks_Albedo.mat
   artifactKey: Guid(7ce598c43c249304495925d4cd0c3da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Woof_Planks_Albedo.mat using Guid(7ce598c43c249304495925d4cd0c3da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd49629d98222d5127709dae2cdc6f15') in 0.012741 seconds 
-  Import took 0.015357 seconds .
+Start importing Assets/Materials/Woof_Planks_Albedo.mat using Guid(7ce598c43c249304495925d4cd0c3da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd49629d98222d5127709dae2cdc6f15') in 0.012798 seconds 
+  Import took 0.015443 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 4.795294 seconds.
-  path: Assets/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef
-  artifactKey: Guid(86c9d8e67265f41469be06142c397d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef using Guid(86c9d8e67265f41469be06142c397d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48dd2c4e86009135851ceb085a17e21a') in 0.006630 seconds 
-  Import took 0.010431 seconds .
+Received Prepare
+Assets/Props/Door/Door.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.003601 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.910 seconds
+Domain Reload Profiling:
+	ReloadAssembly (911ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (736ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (244ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (295ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (235ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1728 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.3 MB.
+System memory in use after: 82.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2240.
+Total: 2.367800 ms (FindLiveObjects: 0.150500 ms CreateObjectMapping: 0.057000 ms MarkObjects: 2.125300 ms  DeleteObjects: 0.034300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.013705 seconds.
-  path: Assets/NavMeshComponents/Editor
-  artifactKey: Guid(63b588f3892bb4b5eb73ad3d2791e05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NavMeshComponents/Editor using Guid(63b588f3892bb4b5eb73ad3d2791e05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759f2001355dbd5f8fcfc1c74dee01bb') in 0.001836 seconds 
-  Import took 0.004338 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.723329 seconds.
+  Time since last request: 18.448496 seconds.
   path: Assets/Scenes/SampleScene
   artifactKey: Guid(cd2335982d6a1d24eb65fa2c2781acc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene using Guid(cd2335982d6a1d24eb65fa2c2781acc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534fd0079118a3f76f60147914fc89a5') in 0.006456 seconds 
-  Import took 0.009773 seconds .
+Start importing Assets/Scenes/SampleScene using Guid(cd2335982d6a1d24eb65fa2c2781acc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534fd0079118a3f76f60147914fc89a5') in 0.004491 seconds 
+  Import took 0.007129 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.098065 seconds.
-  path: Assets/Scenes/SampleScene/NavMesh-NavMesh.asset
-  artifactKey: Guid(cd3e900af2fc28643b07fc4dfb1be507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene/NavMesh-NavMesh.asset using Guid(cd3e900af2fc28643b07fc4dfb1be507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73904e2706c692f8ecc763a24c531253') in 0.007449 seconds 
-  Import took 0.010600 seconds .
+  Time since last request: 0.007898 seconds.
+  path: Assets/Scenes/SampleScene
+  artifactKey: Guid(cd2335982d6a1d24eb65fa2c2781acc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene using Guid(cd2335982d6a1d24eb65fa2c2781acc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534fd0079118a3f76f60147914fc89a5') in 0.002018 seconds 
+  Import took 0.004848 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 48.937697 seconds.
-  path: Assets/Scenes/CookieCaper.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/CookieCaper.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103964bfbafee46d3c3433693dc88388') in 0.006694 seconds 
-  Import took 0.009746 seconds .
+  Time since last request: 7.494827 seconds.
+  path: Assets/Textures/Materials
+  artifactKey: Guid(bc76df92330cd9143b4513ef5c005519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Materials using Guid(bc76df92330cd9143b4513ef5c005519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76213c5d0e18e2425be36ae2c5da00bf') in 0.005851 seconds 
+  Import took 0.009291 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000789 seconds.
-  path: Assets/Scenes/CookieCaper.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/CookieCaper.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103964bfbafee46d3c3433693dc88388') in 0.001888 seconds 
-  Import took 0.004557 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.639786 seconds.
-  path: Assets/Scenes/CookieCaperClinic2.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/CookieCaperClinic2.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5950cf0676b0f3fec6b04594bad2e651') in 0.007282 seconds 
-  Import took 0.009814 seconds .
+  Time since last request: 0.090812 seconds.
+  path: Assets/Textures/Materials/woodfloorBWN.mat
+  artifactKey: Guid(09803ab6c3308554ab0d99f65d72e314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Materials/woodfloorBWN.mat using Guid(09803ab6c3308554ab0d99f65d72e314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa554392ce156e4bdb24bcdc75becef3') in 0.049967 seconds 
+  Import took 0.052891 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
