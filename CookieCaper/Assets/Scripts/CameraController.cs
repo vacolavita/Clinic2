@@ -25,6 +25,14 @@ public class CameraController : MonoBehaviour
     [SerializeField]
     private Vector2 _rotationXMinMax = new Vector2(-40, 40);
 
+
+
+
+
+
+
+
+
     void Update()
     {
         float mouseX = Input.GetAxis("Mouse X") * _mouseSensitivity;
@@ -44,5 +52,11 @@ public class CameraController : MonoBehaviour
 
         // Substract forward vector of the GameObject to point its forward vector to the target
         transform.position = _target.position - transform.forward * _distanceFromTarget;
+
+
+
+
+
+
     }
 }
